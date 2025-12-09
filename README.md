@@ -6,8 +6,9 @@ Demo project hướng dẫn **Unit Testing** với **Jest** và **React Native T
 
 [![SonarCloud](https://github.com/BKhoa/L01-BK/actions/workflows/sonarcloud.yml/badge.svg)](https://github.com/BKhoa/L01-BK/actions/workflows/sonarcloud.yml)
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=YOUR_PROJECT_KEY&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=YOUR_PROJECT_KEY)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=YOUR_PROJECT_KEY&metric=coverage)](https://sonarcloud.io/summary/new_code?id=YOUR_PROJECT_KEY)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=BKhoa_L01-BK&metric=alert_status)](https://sonarcloud.io/dashboard?id=BKhoa_L01-BK)
+
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=BKhoa_L01-BK&metric=coverage)](https://sonarcloud.io/dashboard?id=BKhoa_L01-BK)
 
 ## Tổng quan
 
