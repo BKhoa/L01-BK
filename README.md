@@ -369,8 +369,9 @@ jobs:
 ### Bước 7: Thêm badges vào README
 
 ```markdown
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=YOUR_PROJECT_KEY&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=YOUR_PROJECT_KEY)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=YOUR_PROJECT_KEY&metric=coverage)](https://sonarcloud.io/summary/new_code?id=YOUR_PROJECT_KEY)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=BKhoa_L01-BK&metric=alert_status)](https://sonarcloud.io/dashboard?id=BKhoa_L01-BK)
+
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=BKhoa_L01-BK&metric=coverage)](https://sonarcloud.io/dashboard?id=BKhoa_L01-BK)
 ```
 
 ---
@@ -480,7 +481,7 @@ MIT License - Dự án demo cho mục đích học tập.
 
 ## Contributors
 
-- **Nhóm [TÊN NHÓM]** - CO3043 - Học kỳ [HK]
+- **Nhóm [L01]** - CO3043 - Học kỳ [HK251]
 
 ---
 
