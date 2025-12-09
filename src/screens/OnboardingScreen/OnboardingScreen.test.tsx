@@ -7,7 +7,7 @@ describe("OnboardingScreen", () => {
   // *** Test 1: Render không crash ***
   test("renders onboarding screen without crashing", () => {
     const { getByTestId } = render(<OnboardingScreen />);
-    expect(getByTestId("onboarding-container")).toBeTruthy();
+    expect(getByTestId("onboarding-screen")).toBeTruthy();
   });
 
   // *** Test 2: Hiển thị item/onboarding text ***
@@ -20,17 +20,24 @@ describe("OnboardingScreen", () => {
 
   // *** Test 3: Nhấn nút Next / Get Started ***
   test("button Next works correctly", () => {
-    const mockNavigate = jest.fn();
+  const mockComplete = jest.fn();
 
-    const { getByText } = render(
-      <OnboardingScreen navigation={{ navigate: mockNavigate } as any} />
-    );
+  const { getByText } = render(
+    <OnboardingScreen onComplete={mockComplete} />
+  );
 
-    const nextButton = getByText(/next|get started/i);
+  let nextButton;
 
-    fireEvent.press(nextButton);
+  // Nhấn Next hai lần để tới slide cuối
+  nextButton = getByText('Next');
+  fireEvent.press(nextButton);
 
-    expect(mockNavigate).toHaveBeenCalled();
-  });
+  nextButton = getByText('Next');
+  fireEvent.press(nextButton);
 
+  // Giờ là slide cuối => nút "Get Started"
+  const finishButton = getByText('Get Started');
+  fireEvent.press(finishButton);
+
+  expect(mockComplete).toHaveBeenCalled();
 });
