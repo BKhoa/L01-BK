@@ -30,7 +30,7 @@ Task management app với add, toggle, và delete tasks.
 ## Cấu trúc project
 
 ```
-demo_mobile/
+L01-BK
 ├── src/
 │   └── screens/
 │       ├── OnboardingScreen/
@@ -263,7 +263,7 @@ jobs:
 ### Bước 4: Thêm badge vào README
 
 ```markdown
-[![Run Tests](https://github.com/YOUR_USERNAME/demo_mobile/actions/workflows/test.yml/badge.svg)](https://github.com/YOUR_USERNAME/demo_mobile/actions/workflows/test.yml)
+[![Run Tests](https://github.com/YOUR_USERNAME/L01-BKactions/workflows/test.yml/badge.svg)](https://github.com/YOUR_USERNAME/L01-BKactions/workflows/test.yml)
 ```
 
 ---
