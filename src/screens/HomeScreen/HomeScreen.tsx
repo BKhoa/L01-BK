@@ -60,7 +60,7 @@ export default function HomeScreen() {
       <View style={styles.inputContainer}>
         <TextInput
           style={styles.input}
-          placeholder="Add a new task..."
+          placeholder="Add a new task"
           value={inputValue}
           onChangeText={setInputValue}
           onSubmitEditing={handleAddTask}
